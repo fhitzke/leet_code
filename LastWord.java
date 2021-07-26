@@ -1,6 +1,6 @@
 public class LastWord {
 
-    public static int lengthOfLastWord(String s) {
+    public int lengthOfLastWord(String s) {
         if (s.equals(" ") || s == null) {
             return 0;
         }
